@@ -1,0 +1,5 @@
+order item modelida o'zgarish qildim, ya'ni
+get_product da OrderItem.product_id CoffeeAndTea.id sifatida ishlatilgan bo‘lsa,
+coffee itemlarni CoffeeSize id ga o'tkazdim,
+Sening CoffeeAndTea modelida narx yo‘q — narx CoffeeSize.price da saqlanadi, shuning uchun buyurtmada
+qancha olinayotganini aniq belgilash uchun product_id CoffeeSize.id bo‘lishi kerak.
